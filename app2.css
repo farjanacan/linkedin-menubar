@@ -1,0 +1,80 @@
+
+body{
+    margin: 0;
+}
+header{
+    margin: 0;
+    padding: 0 24px;
+}
+.global-nav-content{
+    width: 1128px;
+    height: 52px;
+    margin: 0 52px;
+    padding-top: 5px;
+}
+
+.nav-logo, .nav-search, .nav-primary{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search{
+    width: 280px ;
+    height:34px;
+    vertical-align: middle;
+    padding: 0 8px 0 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+.nav-search{
+    width: 425px;
+    height: 34px;
+}
+#linkedin-search{
+    position: absolute;
+    left: 200px;
+}
+.nav-logo{
+    width: 34px;
+    height: 34px;
+}
+
+#linkedin-logo{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    line-height: 35px;
+    color: #0a66c2;
+}
+i{
+    height: 24px;
+    width: 24px;
+    color: #00000099;
+    font-size: 24px;
+}
+
+.nav-primary{
+    width: 80px;
+    height: 52px;
+    vertical-align: middle;
+   box-sizing: border-box;
+   text-align: center;
+}
+/* a{
+    display: block;
+} */
+.label{
+    display: block;
+    color: #00000099;
+    font-size: 12px;
+    height: 18px;
+    width:auto;
+}
+.try-premium{
+    color: #00000099;
+    text-decoration: none;
+    font-size: 12px;
+    width: 100px;
+    height: 52px;
+
+}

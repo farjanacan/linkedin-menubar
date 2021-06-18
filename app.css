@@ -1,0 +1,93 @@
+body{
+    margin:0;
+}
+.box{
+    margin:0;
+    padding:0;
+    height: 800px;
+    background-color: rgba(243, 242, 239, 1);
+}
+.global-nav-content{
+    vertical-align: baseline;
+    height: 52px;
+    width: 100% auto;
+}
+.nav-primary{
+    vertical-align: baseline;
+    list-style-type: none;
+    background-color:#ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100% auto;
+    height: 52px;
+}
+.nav, .navbar, li, .nav-branding, .nav-search{
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+
+a{
+    display: block;
+    width: 80px;
+    height: 52px;
+    padding:0;
+    text-decoration: none;
+    text-align: center;
+
+}
+i{
+    display: block;
+}
+span{
+    display: block;
+    color: #00000099;
+    height: 18px;
+    width: 100%;
+    font-size: 12px;
+}
+h1.nav-branding{
+    padding-left: 4rem;
+    margin: 0;
+    width: 34px;
+    height: 34px;
+    color: #0a66c2;
+}
+
+div.nav-search{
+    width: 280px;
+    height: 34px;
+    padding: 0 8px 0 40px;
+    background-color: #eef3f8;
+}
+i{
+    width: 24px;
+    height: 24px;
+    color: #00000099;
+}
+i.fas fa-sort-down{
+    vertical-align: baseline;
+}
+
+.try-premium{
+    width: 100px;
+    height: 52px;
+    color:#915907;
+}
+
+li a:hover{
+    text-decoration:underline;
+    background-color: #ffffff;
+    color: #252422;
+}
+i:hover{
+    color: #252422;
+}
+#work{
+    border-left: 1px solid #6c757d;
+    width: 73px;
+    height: 52px;
+    margin: 0 12px;
+    padding: 0 0 0 24px;
+}
+

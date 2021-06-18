@@ -1,0 +1,39 @@
+body{
+    margin:0;
+}
+ul{
+    list-style-type: none;
+    background-color:#2070cc;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #a7d5f0;
+}
+
+li{
+    display: inline-block;
+}
+#first_li{
+    padding-left: 4rem;
+}
+a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+    transition: background-color 0.6s ease-out;
+    color: #fff;
+}
+
+ a:link{
+    color:chocolate;
+}
+a:hover{
+    background-color: #004dbf;
+}
+
+ a:active{
+    text-decoration:underline !important;
+    text-underline-offset: 3px;
+
+}
